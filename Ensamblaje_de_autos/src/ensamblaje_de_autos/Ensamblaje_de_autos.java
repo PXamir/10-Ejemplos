@@ -27,7 +27,7 @@ public class Ensamblaje_de_autos {
         
                 
         PARTES_DATOS door_data = new PARTES_DATOS("D005", "LaFerrari", "28/12/2023");
-        PUERTA_INFO door_info = new PUERTA_INFO()
+        PUERTA_INFO door_info = new PUERTA_INFO("#FF0000", "mariposa");
         
         PUERTA laferrari_door = new PUERTA(door_data, door_info);
         
